@@ -6,6 +6,8 @@ set the color purple on the bottom
 
 set color black on the top
 
+create a link
+
 */
 
 
@@ -106,4 +108,13 @@ p {
 p {
     border-style: purple;
     border-left: yellow;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
